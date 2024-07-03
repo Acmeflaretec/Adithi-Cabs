@@ -2105,8 +2105,8 @@ color: white;
 }
 
 .input-group input {
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  
   padding-right: 40px; /* Make space for the icon */
 }
 
