@@ -4125,14 +4125,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- end footer Area -------------*/
 
 
-/* Custom CSS for equal spacing */
-.form-group {
-  margin-bottom: 20px; /* Adjust this value to increase or decrease the spacing */
-}
-
-.txt-field {
-  padding: 15px; /* Add padding to text fields for consistent appearance */
-}
 
 
 .info_section {
