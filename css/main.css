@@ -46,6 +46,12 @@ $black			: #222;
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #f9d700;
@@ -2639,7 +2645,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767px) {
   .header-right {
     margin-bottom: 50px;
-    
   }
 }
 
@@ -2680,9 +2685,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: rem;
   color: white;
 }
-
-
-
 
 .header-right .lnr {
   color: #222;
@@ -3860,7 +3862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0px;
   width: 100%;
   font-size: 13px;
-  color:white;
+  color: white;
 }
 
 .comment-form .form-control:focus {
@@ -4188,8 +4190,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .txt-field {
   padding: 15px;
-  color: white; 
- 
+  color: white;
 }
 
 .info_section {
@@ -4226,9 +4227,46 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 
-
-.adithi-logo{
-  height: 100px;
+.adithi-logo {
+  
   width: 100px;
+}
 
-};
+.sticky-icons {
+  /* position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000; */
+
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+  position:fixed;
+  z-index:100;
+}
+
+.sticky-icons a {
+  display: block;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366; /* WhatsApp green */
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  transition: background-color 0.3s;
+}
+
+.sticky-icons a.call-icon {
+  background-color: #34b7f1; /* Call button color */
+}
+
+.sticky-icons a:hover {
+  background-color: #128c7e; /* Darker WhatsApp green */
+}
+
+.sticky-icons a.call-icon:hover {
+  background-color: #0679a4; /* Darker call button color */
+}
