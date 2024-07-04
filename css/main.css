@@ -2159,8 +2159,7 @@ h6 {
 
 .input-group .input-icon {
   position: absolute;
-  right: 10px;
-
+  right: 20px;
   pointer-events: none;
   color: #aaa;
 }
@@ -3535,14 +3534,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-right: none !important;
   border-radius: 0px;
   font-size: 13px;
-  color: #ccc;
+  color: white;
   padding: 9px;
   padding-left: 0px;
 }
 
 .widget-wrap .newsletter-widget .form-control:focus {
   box-shadow: none;
-  border-color: #ccc;
+  border-color: white;
 }
 
 .widget-wrap .newsletter-widget ::-webkit-input-placeholder {
@@ -3856,12 +3855,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0px;
   width: 100%;
   font-size: 13px;
-  color: #777777;
+  color:white;
 }
 
 .comment-form .form-control:focus {
   box-shadow: none;
-  border: 1px solid #eee;
+  border: 1px solid white;
   background-color: transparent;
 }
 
@@ -4174,11 +4173,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Custom CSS for equal spacing */
 .form-group {
-  margin-bottom: 20px; /* Adjust this value to increase or decrease the spacing */
+  margin-bottom: 20px;
+}
+/* Change the placeholder color for input fields within a specific class */
+.txt-field::placeholder {
+  color: white; /* Change this to your desired color */
+  opacity: 1; /* This is needed for Firefox */
 }
 
 .txt-field {
-  padding: 15px; /* Add padding to text fields for consistent appearance */
+  padding: 15px;
+  color: white; 
+ 
 }
 
 .info_section {
