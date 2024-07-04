@@ -2639,6 +2639,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767px) {
   .header-right {
     margin-bottom: 50px;
+    
   }
 }
 
