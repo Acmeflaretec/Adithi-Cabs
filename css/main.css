@@ -2681,6 +2681,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 
+
+
+
 .header-right .lnr {
   color: #222;
 }
@@ -4222,3 +4225,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   color: white;
 }
+
+
+.adithi-logo{
+  height: 150px;
+  width: 150px;
+};
